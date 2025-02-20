@@ -7,7 +7,7 @@ function Header() {
       <div className="header">
         <div className="header-container container">
           <div className="logo">
-            <a href="/home">
+            <a href="/">
               <h2 className="site-logo">NAMANGANLIKLAR 24</h2>
             </a>
             <div className="income">
@@ -36,7 +36,7 @@ function Header() {
       </div>
       <div className="site-nav">
         <div className="nav-container container">
-          <NavLink to={"/home"} className={"link"}>
+          <NavLink to={"/"} className={"link"}>
             Главное
           </NavLink>
           <NavLink to={"/list"} className={"link"}>
